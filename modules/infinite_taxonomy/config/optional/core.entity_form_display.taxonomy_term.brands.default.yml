@@ -1,4 +1,4 @@
-langcode: de
+langcode: en
 status: true
 dependencies:
   config:
@@ -23,6 +23,7 @@ content:
       placeholder: ''
       rows: 5
     third_party_settings: {  }
+    region: content
   field_header_media:
     type: inline_entity_form_complex
     weight: 3
@@ -34,6 +35,7 @@ content:
       match_operator: CONTAINS
       override_labels: false
     third_party_settings: {  }
+    region: content
   field_header_title:
     weight: 2
     settings:
@@ -41,16 +43,19 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
   field_meta_tags:
     type: metatag_firehose
     weight: 6
     settings: {  }
     third_party_settings: {  }
+    region: content
   langcode:
     type: language_select
     weight: 0
     settings: {  }
     third_party_settings: {  }
+    region: content
   name:
     type: string_textfield
     weight: 1
@@ -58,9 +63,18 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+    region: content
   path:
     type: path
     weight: 5
     settings: {  }
+    third_party_settings: {  }
+    region: content
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    region: content
     third_party_settings: {  }
 hidden: {  }

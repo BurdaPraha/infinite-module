@@ -20,12 +20,15 @@ content:
     weight: 0
     settings: {  }
     third_party_settings: {  }
+    region: content
   field_meta_tags:
     weight: 1
     label: hidden
     settings: {  }
     third_party_settings: {  }
     type: metatag_empty_formatter
+    region: content
 hidden:
   field_header_media: true
+  field_header_title: true
   langcode: true

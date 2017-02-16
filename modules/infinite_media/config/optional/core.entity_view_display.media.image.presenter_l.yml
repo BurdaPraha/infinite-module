@@ -25,6 +25,7 @@ content:
       image_link: ''
     third_party_settings: {  }
     type: image
+    region: content
 hidden:
   created: true
   field_brands: true
@@ -39,3 +40,4 @@ hidden:
   name: true
   thumbnail: true
   uid: true
+  langcode: true
